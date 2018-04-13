@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Мишка форма</title>
+</head>
+<body>
+  <header class="page-header">
+    <a class="page-header__logo">
+      <img class="page-header__logo-image" src="img/logo-mobile.svg" alt="Логотип магазина Мишка" width="86" height="35px">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">Открыть меню</button>
+      <ul class="main-nav__list site-list">
+        <li class="site-list__item">
+          <a class="site-list__link" href="#">Каталог товаров</a>
+        </li>
+        <li class="site-list__item">
+          <a class="site-list__link" href="#">Вязание на заказ</a>
+        </li>
+      </ul>
+      <ul class="main-nav__list user-list">
+        <li class="user-list__item">
+          <a class="user-list__search" href="#">Поиск по сайту</a>
+        </li>
+        <li class="user-list__item">
+          <a class="user-list__basket" href="#">Корзина: пока пуста</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="form-page">
+    <h1 class="form-page__title">Вязание на заказ</h1>
+    <p class="form-page__description">
+      Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.
+    </p>
+    <form class="form" action="https://echo.htmlacademy.ru" method="get">
+      <fieldset>
+        <legend>Тип</legend>
+        <input type="radio" name="type" id="radio-accessory">
+        <label for="radio-accessory">Аксессуар для интерьера</label>
+        <input type="radio" name="type" id="radio-toy">
+        <label for="radio-toy">Детская игрушка</label>
+      </fieldset>
+      <fieldset>
+        <legend>Цвет</legend>
+        <input type="checkbox" name="color-white" id="color-white">
+        <label for="color-white">Белый</label>
+        <input type="checkbox" name="color-gray" id="color-gray">
+        <label for="color-gray">Серый</label>
+        <input type="checkbox" name="color-tiffani" id="color-tiffani">
+        <label for="color-tiffani">«Тиффани»</label>
+        <input type="checkbox" name="color-black" id="color-black">
+        <label for="color-black">Черный</label>
+        <input type="checkbox" name="color-pink" id="color-pink">
+        <label for="color-pink">Розовый</label>
+        <input type="checkbox" name="color-orange" id="color-orange">
+        <label for="color-orange">Оранжевый</label>
+      </fieldset>
+      <fieldset>
+        <legend>Фио</legend>
+        <label for="input-name">Имя:</label>
+        <input type="text" name="input-name" placeholder="Введите ваше имя*" id="input-name">
+        <label for="input-surname">Фамилия:</label>
+        <input type="text" name="input-surname" placeholder="Укажите фамилию*" id="input-surname">
+        <label for="input-middle-name">Отчество:</label>
+        <input type="text" name="input-middle-name" placeholder="Отчество, если желаете" id="input-middle-name">
+      </fieldset>
+      <fieldset>
+        <legend>Тел</legend>
+        <label class="visually-hidden" for="input-telephone">Телефон</label>
+        <input type="text" name="telephone" placeholder="+7 ХХХ ХХ ХХ*" id="input-telephone">
+      </fieldset>
+      <fieldset>
+        <legend>E-mail</legend>
+        <label class="visually-hidden" for="input-email">e-mail</label>
+        <input type="text" name="e-mail" placeholder="Ваш Email*" id="input-email">
+      </fieldset>
+      <fieldset>
+        <legend>Доп</legend>
+        <textarea name="name" rows="8" cols="30">Опишите все ваши пожелания к заказу</textarea>
+      </fieldset>
+      <p class="form__required">*Поля обязательны для заполнения</p>
+      <button class="form__link button" type="submit" name="submit-button">Отправить заказ</button>
+    </form>
+  </main>
+
+  <footer class="page-footer">
+    <ul class="social">
+      <li class="social__item">
+        <a class="social__link social__link--instagram" href="#">Инстаграм</a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--facebook" href="#">Фейсбук</a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--twitter" href="#">Твиттер</a>
+      </li>
+    </ul>
+    <p class="page-footer__copyright">
+      Разработано <a class="page-footer__academy-icon" href="#">htmlacademy</a>
+    </p>
+  </footer>
+</body>
+</html>
