@@ -1,0 +1,39 @@
+.featured__title {
+  margin: 0;
+  padding: 0;
+
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.featured__label {
+  font-size: 17px;
+  line-height: 20px;
+  color: #63d1bb;
+  text-transform: uppercase;
+}
+
+.featured__description {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #444444;
+}
+
+.featured__table {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #444444;
+}
+
+.featured__table-row {
+  border-bottom: 1px solid #ececec;
+}
+
+.feature__price {
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  color: #444444;
+}
