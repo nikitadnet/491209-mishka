@@ -1,0 +1,14 @@
+@media (min-width: $tablet-width) {
+  .site-list {
+    display: flex;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .site-list {
+    display: flex;
+    width: 400px;
+    order: -1;
+  }
+}
