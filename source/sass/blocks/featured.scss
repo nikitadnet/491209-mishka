@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  min-height: 825px;
 }
 
 .featured__title {
@@ -42,6 +43,7 @@
 }
 
 .featured__price {
+  margin: 0;
   font-size: 17px;
   line-height: 24px;
   text-align: center;
@@ -49,12 +51,9 @@
 }
 
 @media (min-width: $tablet-width) {
-  .featured {
-    height: 610px;
-  }
-
   .featured__wrapper {
     flex-direction: row;
+    min-height: 625px;
   }
 
   .featured__title-wrapper {
