@@ -2,7 +2,26 @@
   background-color: #f1f1f1;
 }
 
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__logo {
+  display: none;
+}
+
 .footer__copyright-text {
   font-size: 19px;
   line-height: 18px;
+}
+
+@media (min-width: $tablet-width) {
+  .footer__wrapper {
+    flex-direction: row;
+  }
+
+  .footer__logo {
+    display: block;
+  }
 }
