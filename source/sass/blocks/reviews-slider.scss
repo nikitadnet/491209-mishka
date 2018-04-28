@@ -21,3 +21,14 @@
   border: 1px solid #ececec;
   background-color: #ffffff;
 }
+
+@media (min-width: $tablet-width) {
+  .reviews-slider__slide {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .reviews-slider__text {
+    width: 668px;
+  }
+}

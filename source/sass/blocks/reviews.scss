@@ -1,7 +1,33 @@
+.reviews__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .reviews__title {
   margin: 0;
   padding: 0;
 
   font-size: 25px;
   line-height: 30px;
+}
+
+@media (min-width: $tablet-width) {
+  .reviews__wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .reviews__title {
+    width: 334px;
+    order: -2;
+  }
+
+  .reviews__link {
+    width: 178px;
+    order: -1;
+  }
+
+  .reviews-slider__slide {
+    display: flex;
+  }
 }
