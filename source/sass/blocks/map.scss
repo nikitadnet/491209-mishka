@@ -1,3 +1,9 @@
 .map {
   background-color: #dfdfdf;
 }
+
+@media (min-width: $desktop-width) {
+  .map {
+    display: none;
+  }
+}

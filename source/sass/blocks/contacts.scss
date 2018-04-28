@@ -1,3 +1,8 @@
+.contacts__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .contacts__title {
   font-size: 18px;
   line-height: 30px;
@@ -8,4 +13,16 @@
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 30px;
+}
+
+@media (min-width: $tablet-width) {
+  .contacts__table {
+    display: flex;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contacts__table {
+    flex-direction: column;
+  }
 }
