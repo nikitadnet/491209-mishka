@@ -56,6 +56,15 @@
 }
 
 @media (min-width: $tablet-width) {
+  .banner {
+    margin-top: -45px;
+
+  }
+
+  .banner__title {
+    margin-top: 165px;
+  }
+
   .banner__wrapper {
     width: 668px;
     padding: 0 50px;
