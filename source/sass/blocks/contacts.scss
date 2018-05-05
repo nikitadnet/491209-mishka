@@ -1,6 +1,9 @@
 .contacts__wrapper {
   display: flex;
   flex-direction: column;
+  width: 260px;
+  padding: 0 30px;
+  margin: 0 auto;
 }
 
 .contacts__title {
@@ -16,13 +19,38 @@
 }
 
 @media (min-width: $tablet-width) {
+  .contacts__wrapper {
+    width: 668px;
+    padding: 0 50px;
+  }
+
   .contacts__table {
     display: flex;
   }
 }
 
 @media (min-width: $desktop-width) {
+  .contacts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1050px;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+
+  .contacts__wrapper {
+    width: 525px;
+    padding: 0;
+    margin: 0;
+  }
+
   .contacts__table {
     flex-direction: column;
+  }
+
+  .contacts__link-wrapper {
+    display: flex;
+    justify-content: center;
   }
 }
