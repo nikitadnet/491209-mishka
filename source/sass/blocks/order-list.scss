@@ -1,0 +1,21 @@
+.order-list {
+  display: none;
+}
+
+@media (min-width: $desktop-width) {
+  .order-list {
+    display: flex;
+  }
+
+  .order-list__item {
+    width: 175px;
+    padding-top: 20px;
+  }
+
+  .order-list__link {
+    font-family: "Open Sans Bold", "Arial", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+  }
+}

@@ -1,3 +1,8 @@
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
 .about__title {
   margin: 0;
   padding: 0;
@@ -14,4 +19,16 @@
 .about__item {
   font-size: 17px;
   line-height: 20px;
+}
+
+
+@media (min-width: $tablet-width) {
+  .about__advantages-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about__advantages {
+    width: 334px;
+  }
 }

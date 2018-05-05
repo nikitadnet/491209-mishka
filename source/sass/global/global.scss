@@ -1,7 +1,18 @@
 body {
   margin: 0;
   padding: 0;
+  min-width: 320px;
 
   font-family: "Open Sans Bold", "Arial", sans-serif;
   color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (min-width: $tablet-width) {
+  body {
+    min-width: 768px;
+  }
 }

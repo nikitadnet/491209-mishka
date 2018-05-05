@@ -1,0 +1,20 @@
+.delivery-list {
+  display: none;
+}
+
+
+@media (min-width: $tablet-width) {
+  .delivery-list {
+    display: block;
+    margin-left: auto;
+  }
+
+  .delivery-list__link {
+    display: block;
+    padding-top: 20px;
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #444444;
+  }
+}
