@@ -19,6 +19,7 @@
 
   .site-list__item {
     width: 167px;
+    display: flex;
     border: none;
   }
 
@@ -38,6 +39,11 @@
 
   .site-list__item {
     border-bottom: 1px solid #ececec;
+  }
+
+  .site-list__link {
+    padding: 0;
+    align-self: center;
   }
 
   .site-list__item--catalog {
