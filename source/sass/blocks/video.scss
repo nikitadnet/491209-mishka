@@ -1,4 +1,6 @@
 .video {
+  display: flex;
+  flex-direction: column;
   border: 1px solid #ececec;
 }
 
@@ -15,4 +17,21 @@
   font-size: 13px;
   line-height: 24px;
   color: #444444;
+}
+
+@media (min-width: $tablet-width) {
+  .video__wrapper {
+    order: -1;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .video {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .video__wrapper {
+    width: 700px;
+  }
 }
