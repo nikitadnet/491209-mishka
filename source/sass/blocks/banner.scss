@@ -1,26 +1,19 @@
 .banner {
   width: 100%;
+  min-height: 488px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 
   background-image: url("../img/hero-mobile@1x.jpg");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center top;
   background-color: #fcfcfc;
 }
 
-.banner__wrapper {
-  width: 320px;
-  min-height: 498px;
-  padding-top: 75px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-}
-
 .banner__title {
-  margin: 0;
   padding: 0;
-
+  padding-top: 70px;
   font-size: 27px;
   line-height: 30px;
 }
@@ -37,9 +30,19 @@
   list-style: none;
 }
 
+.banner__item {
+  position: relative;
+  width: 320px;
+  display: flex;
+  margin: 0 auto;
+}
+
 .banner__link {
+  box-sizing: border-box;
   display: block;
   width: 320px;
+  padding-top: 25px;
+  padding-right: 150px;
   min-height: 103px;
   font-size: 19px;
   line-height: 24px;
@@ -53,6 +56,34 @@
 
 .banner__link--toys {
   background-color: #56c3b2;
+}
+
+.banner__link-icon {
+  position: absolute;
+  fill: #149080;
+  opacity: 0.5;
+}
+
+.banner__link-icon--items {
+  top: 23px;
+  right: 36px;
+}
+
+.banner__link-icon--toys {
+  top: 21px;
+  right: 27px;
+}
+
+.banner__item:hover .banner__link-icon {
+  opacity: 0.7;
+}
+
+.banner__item:active .banner__link-icon {
+  opacity: 0.7;
+}
+
+.banner__item:active .banner__link {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 @media (min-width: $tablet-width) {
