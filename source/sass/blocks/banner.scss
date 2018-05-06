@@ -1,5 +1,6 @@
 .banner {
   width: 100%;
+  margin: 0 auto;
   min-height: 488px;
   text-align: center;
   display: flex;
@@ -88,20 +89,26 @@
 
 @media (min-width: $tablet-width) {
   .banner {
+    min-height: 750px;
     margin-top: -45px;
+    background-image: none;
+    justify-content: space-between;
   }
 
   .banner__title {
     margin-top: 165px;
-  }
-
-  .banner__wrapper {
-    width: 668px;
-    padding: 0 50px;
+    font-size: 43px;
+    line-height: 50px;
   }
 
   .banner__list {
+    margin: 0 auto;
     flex-direction: row;
+  }
+
+  .banner__item {
+    margin: 0;
+    width: 334px;
   }
 
   .banner__link {
