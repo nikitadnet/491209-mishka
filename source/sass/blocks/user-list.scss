@@ -70,7 +70,7 @@
   }
 
   .user-list__link--basket {
-    width: 264px;
+
     padding: 32px 0 32px 83px;
     border-bottom: 1px solid #ececec;
   }
@@ -91,4 +91,12 @@
     width: 350px;
     order: 0;
   }
+
+  .user-list__link--basket {
+    max-width: 266px;
+    padding-left: 84px;
+    text-align: right;
+  }
+
+
 }

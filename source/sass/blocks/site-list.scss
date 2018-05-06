@@ -52,16 +52,22 @@
   }
 
   .site-list__link {
+    display: block;
     padding: 0;
     align-self: center;
+    font-size: 17px;
   }
 
   .site-list__item--catalog {
-    width: 184px;
+    min-width: 184px;
     border-right: 1px solid #ececec;
   }
 
   .site-list__item--to-order {
-    width: 265px;
+    min-width: 230px;
+  }
+
+  .site-list__link--to-order {
+    padding-left: 35px;
   }
 }
