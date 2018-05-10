@@ -1,6 +1,26 @@
 .social {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
-
+  padding-top: 25px;
+  padding-bottom: 27px;
+  border-bottom: 1px solid #e5e5e5;
   list-style: none;
+}
+
+.social__item {
+  width: 50px;
+  text-align: center;
+}
+
+.social__item:first-child {
+  margin-left: 44px;
+  margin-right: 10px;
+}
+
+.social__item:last-child {
+  margin-right: 44px;
+  margin-left: 10px;
 }

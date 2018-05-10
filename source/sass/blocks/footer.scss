@@ -11,10 +11,24 @@
   display: none;
 }
 
+.footer__copyright {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  padding: 22px 0 23px 0;
+}
+
 .footer__copyright-text {
+  padding-left: 40px;
   font-size: 19px;
   line-height: 18px;
 }
+
+.footer__academy-icon {
+  margin-left: 30px;
+}
+
 
 @media (min-width: $tablet-width) {
   .footer__wrapper {
