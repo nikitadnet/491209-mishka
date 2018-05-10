@@ -1,3 +1,7 @@
+.contacts {
+  padding-top: 30px;
+}
+
 .contacts__wrapper {
   display: flex;
   flex-direction: column;
@@ -11,11 +15,33 @@
   line-height: 30px;
 }
 
-
 .contacts__table {
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 30px;
+}
+
+.contacts__table-row {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.contacts__info-title {
+  width: 75px;
+}
+
+.contacts__info-content {
+  width: 185px;
+}
+
+.contacts__link-wrapper {
+  padding: 40px 0;
+}
+
+.contacts__link {
+  display: block;
+  box-sizing: border-box;
+  padding: 14px 0;
 }
 
 @media (min-width: $tablet-width) {
@@ -51,6 +77,6 @@
 
   .contacts__link-wrapper {
     display: flex;
-    justify-content: center;
+
   }
 }
