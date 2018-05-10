@@ -17,9 +17,26 @@
   color: #444444;
 }
 
+.reviews-slider__buttons {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 38px;
+}
+
 .reviews-slider__button {
+  box-sizing: border-box;
+  width: 130px;
+  height: 52px;
   border: 1px solid #ececec;
   background-color: #ffffff;
+}
+
+.reviews-slider__button:hover .reviews-slider__icon {
+  opacity: 0.6;
+}
+
+.reviews-slider__button:active .reviews-slider__icon {
+  opacity: 0.3;
 }
 
 @media (min-width: $tablet-width) {

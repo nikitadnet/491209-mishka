@@ -5,10 +5,17 @@
 
 .reviews__title {
   margin: 0;
+  margin-bottom: 25px;
+  margin-top: 25px;
   padding: 0;
 
   font-size: 25px;
   line-height: 30px;
+}
+
+.reviews__link {
+  box-sizing: border-box;
+  padding: 14px 0;
 }
 
 @media (min-width: $tablet-width) {
