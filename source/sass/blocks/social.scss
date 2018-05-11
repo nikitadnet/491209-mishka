@@ -1,6 +1,7 @@
 .social {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
@@ -13,11 +14,12 @@
 .social__item {
   width: 50px;
   text-align: center;
+  margin-left: -3px;
 }
 
 .social__item:first-child {
-  margin-left: 44px;
-  margin-right: 10px;
+  margin-left: 38px;
+  margin-right: 13px;
 }
 
 .social__item:last-child {
