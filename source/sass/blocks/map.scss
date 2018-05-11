@@ -4,6 +4,13 @@
   background-color: #dfdfdf;
 }
 
+@media (min-width: $tablet-width) {
+  .map {
+    width: 768px;
+    margin-bottom: 10px;
+  }
+}
+
 @media (min-width: $desktop-width) {
   .map {
     width: 525px;

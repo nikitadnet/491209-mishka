@@ -48,13 +48,40 @@
 }
 
 @media (min-width: $tablet-width) {
+  .contacts {
+    padding: 0;
+    margin-bottom: 16px;
+  }
+
   .contacts__wrapper {
     width: 668px;
     padding: 0 50px;
+    margin-bottom: 26px;
   }
 
   .contacts__table {
     display: flex;
+  }
+
+  .contacts__title {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 43px;
+    line-height: 50px;
+  }
+
+  .contacts__info-title {
+    font-size: 17px;
+  }
+
+  .contacts__info-content {
+    font-size: 17px;
+    width: 255px;
+  }
+
+  .contacts__link {
+    width: 230px;
+    margin: 0 auto;
   }
 }
 

@@ -26,3 +26,12 @@
   margin-right: 44px;
   margin-left: 10px;
 }
+
+
+@media (min-width: $tablet-width) {
+  .social {
+    width: 310px;
+  }
+
+
+}

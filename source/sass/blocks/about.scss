@@ -88,9 +88,12 @@
   background: url("../img/icon-feature-gift.svg") no-repeat 0 0;
 }
 
-
-
 @media (min-width: $tablet-width) {
+  .about {
+    padding-top: 5px;
+    margin-bottom: 83px;
+  }
+
   .about__advantages-wrapper {
     display: flex;
     flex-direction: row;
@@ -98,5 +101,57 @@
 
   .about__advantages {
     width: 334px;
+  }
+
+  .about__title {
+    font-size: 43px;
+    line-height: 50px;
+  }
+
+  .about__item {
+    padding-top: 111px;
+  }
+
+  .about__item b {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .about__item--materials {
+    padding-top: 103px;
+  }
+
+  .about__item--love {
+    padding-top: 103px;
+  }
+
+  .about__item--materials::before {
+    top: 49px;
+    left: 9px;
+  }
+
+  .about__item--price::before {
+    top: 58px;
+    left: 1px;
+  }
+
+  .about__item--like::before {
+    top: 63px;
+    left: 8px;
+  }
+
+  .about__item--love::before {
+    top: 52px;
+    left: 3px;
+  }
+
+  .about__item--manufacturer::before {
+    top: 60px;
+    left: -5px;
+  }
+
+  .about__item--gift::before {
+    top: 59px;
+    left: 3px;
   }
 }

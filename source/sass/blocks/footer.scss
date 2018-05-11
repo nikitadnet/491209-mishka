@@ -35,9 +35,12 @@
 @media (min-width: $tablet-width) {
   .footer__wrapper {
     flex-direction: row;
+    min-height: 143px;
   }
 
   .footer__logo {
+    width: 191px;
+    padding-top: 45px;
     display: block;
   }
 }

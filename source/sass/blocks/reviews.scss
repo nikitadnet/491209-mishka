@@ -23,7 +23,15 @@
 }
 
 @media (min-width: $tablet-width) {
+  .reviews {
+    padding-bottom: 135px;
+    background-image: url("../img/review@1x.jpg");
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+  }
+
   .reviews__wrapper {
+    position: relative;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -31,14 +39,17 @@
   .reviews__title {
     width: 334px;
     order: -2;
+    margin-top: 77px;
+    margin-bottom: 50px;
+    font-size: 43px;
+    line-height: 50px;
   }
 
   .reviews__link {
     width: 178px;
+    height: 52px;
+    margin-top: 79px;
+    margin-left: 156px;
     order: -1;
-  }
-
-  .reviews-slider__slide {
-    display: flex;
   }
 }

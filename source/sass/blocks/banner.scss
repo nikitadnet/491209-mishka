@@ -42,8 +42,9 @@
   box-sizing: border-box;
   display: block;
   width: 320px;
-  padding-top: 25px;
+  padding-top: 30px;
   padding-right: 150px;
+  padding-left: 35px;
   min-height: 103px;
   font-size: 19px;
   line-height: 24px;
@@ -89,14 +90,14 @@
 
 @media (min-width: $tablet-width) {
   .banner {
-    min-height: 750px;
-    margin-top: -45px;
+    min-height: 730px;
+    margin-top: -42px;
     background-image: none;
     justify-content: space-between;
   }
 
   .banner__title {
-    margin-top: 165px;
+    margin-top: 85px;
     font-size: 43px;
     line-height: 50px;
   }
@@ -111,8 +112,25 @@
     width: 334px;
   }
 
+  .banner-item .container {
+    margin: 0;
+    width: 0;
+  }
+
   .banner__link {
     width: 334px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .banner__link-icon--items {
+    top: 30px;
+    right: 36px;
+  }
+
+  .banner__link-icon--toys {
+    top: 32px;
+    right: 34px;
   }
 }
 

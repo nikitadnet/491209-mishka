@@ -49,5 +49,40 @@
 
   .reviews-slider__text {
     width: 668px;
+    margin: 0;
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  .reviews-slider__user-name {
+    padding-top: 56px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .reviews-slider__user-email {
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  .reviews-slider__slide {
+    display: flex;
+  }
+
+  .reviews-slider__buttons {
+    position: absolute;
+    right: 50px;
+    bottom: 1px;
+    margin: 0;
+  }
+
+  .reviews-slider__button {
+    width: 83px;
+    border: none;
+  }
+
+  .reviews-slider__button--prev {
+    margin-right: 5px;
   }
 }

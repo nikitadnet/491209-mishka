@@ -106,12 +106,13 @@
   .featured__wrapper {
     flex-direction: row;
     min-height: 625px;
-    padding-top: 40px;
+    padding-top: 60px;
   }
 
   .featured__title-wrapper {
     display: flex;
     width: 100%;
+    margin-bottom: -15px;
   }
 
   .featured__title {
@@ -134,10 +135,13 @@
     width: 334px;
     min-height: 300px;
     align-content: flex-start;
+    align-self: flex-start;
+    margin-bottom: 0;
   }
 
   .featured__description {
     width: 285px;
+    margin-bottom: 35px;
     font-size: 17px;
     line-height: 30px;
   }
@@ -149,7 +153,20 @@
   }
 
   .featured__price-wrapper {
-    width: 334px;
+    width: 290px;
+    margin-top: -165px;
+    padding-top: 0;
+  }
+
+  .featured__price {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 35px;
+  }
+
+  .featured__order {
+    margin: 0;
+    width: 290px;
   }
 }
 
